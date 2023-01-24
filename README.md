@@ -50,10 +50,11 @@ I began planning out this project by reviewing the QRcodejs documentation. From 
 <br/>
   
   <h2>QR code comp</h2>
-  ![Screen Shot 2023-01-24 at 2 15 20 PM](https://user-images.githubusercontent.com/50157153/214434689-ece07fc2-afc9-41a9-944a-c5f433f5ac1b.png)
+ 
 
 
 ## 🎉Acknowledgement
 
 - [QRcodejs](https://github.com/davidshimjs/qrcodejs)
 - [Frontend Mentor](https://www.frontendmentor.io/home)
+ ![Screen Shot 2023-01-24 at 2 15 20 PM](https://user-images.githubusercontent.com/50157153/214434689-ece07fc2-afc9-41a9-944a-c5f433f5ac1b.png)
