@@ -11,7 +11,7 @@
 
 <div>
   <h4 align=“center”>Enter a url and click to generate a QR code</h4>
-  <img align=“center” src=“../qr-code.gif” height=“720”/>
+  <img align=“center” src=“./qr-code.gif” height=“720”/>
 </div>
 
 <br/>
@@ -53,7 +53,7 @@ I began planning out this project by reviewing the QRcodejs documentation. From 
 <div align=“center”>
   
   <h2>QR code comp</h2>
-  <img src=“./design/mobile-design.jbp” alt=“QR code generator comp”>
+  <img src=“./design/mobile-design.jpg” alt=“QR code generator comp”>
 </div>
 
 ## 🎉Acknowledgement
