@@ -1,8 +1,11 @@
 body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: rgb(215, 225, 237);
   font-family: 'Outfit', sans-serif;
-  max-width: 1440px;
   margin: 0 auto;
+  min-width: 380px;
 }
 
 input,
@@ -12,15 +15,48 @@ button {
 
 main {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  border: 2px solid red;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
 }
 
-.text-container {
-  border: 2px solid blue;
+.text-container,
+#qr-form {
+  width: 60%;
+  text-align: center;
 }
 
-form {
-  border: 2px solid limegreen;
+.text-container > h1 {
+  font-weight: 700;
+}
+
+.text-container > p {
+  color: rgb(169, 171, 180);
+}
+
+.generate-button {
+  background-color: rgb(74, 133, 276);
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+}
+
+#url-input {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#qrcode {
+  background-color: rgb(74, 133, 276);
+  padding: 4rem;
+  border-radius: 0.5rem;
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 1rem;
+}
+
+#qr-form {
+  margin-bottom: 1rem;
 }

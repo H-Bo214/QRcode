@@ -20,14 +20,20 @@
   </head>
   <body>
     <main>
-      <section class="qr-code-container"></section>
+      <section id="qrcode"></section>
       <section class="text-container">
         <h1>Enter a url and click submit to generate your QR code</h1>
         <p>Scan the QR code to visit the website</p>
       </section>
-      <form>
-        <input type="text" placeholder="Enter URL" name="url-input" />
-        <button>Generate QRcode</button>
+      <form id="qr-form">
+        <input
+          type="url"
+          placeholder="Enter URL"
+          name="url"
+          id="url-input"
+          value=""
+        />
+        <button class="generate-button">Generate QRcode</button>
       </form>
     </main>
     <footer class="attribution">
