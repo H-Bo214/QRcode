@@ -20,21 +20,25 @@
   </head>
   <body>
     <main>
-      <section id="qrcode"></section>
-      <section class="text-container">
-        <h1>Enter a url and click submit to generate your QR code</h1>
-        <p>Scan the QR code to visit the website</p>
+      <section class="container">
+        <section id="qrcode">
+          <img src="./images/image-qr-code.png" alt="QR code example" />
+        </section>
+        <section class="text-container">
+          <h1>Enter a url and click generate QR code</h1>
+          <p>Scan the QR code to visit the website</p>
+        </section>
+        <form id="qr-form">
+          <input
+            type="url"
+            placeholder="Enter URL"
+            name="url"
+            id="url-input"
+            value="https://"
+          />
+          <button class="generate-button">Generate QR code</button>
+        </form>
       </section>
-      <form id="qr-form">
-        <input
-          type="url"
-          placeholder="Enter URL"
-          name="url"
-          id="url-input"
-          value=""
-        />
-        <button class="generate-button">Generate QRcode</button>
-      </form>
     </main>
     <footer class="attribution">
       Challenge by

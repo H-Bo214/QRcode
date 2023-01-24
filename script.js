@@ -1,24 +1,46 @@
-// 'use strict'
+'use strict'
 
 const qr = document.getElementById('qrcode')
 const form = document.getElementById('qr-form')
+const input = document.getElementById('url-input')
+input.addEventListener('focus', clearMessage)
 form.addEventListener('submit', generateQRcode)
+let priorURL
 
 function generateQRcode(e) {
   e.preventDefault()
-  clearUI()
   const url = document.getElementById('url-input').value
-
-  if (url === '') return alert('Please enter a url')
-  const qrcode = new QRCode('qrcode', {
+  priorURL = url
+  clearQRcode()
+  new QRCode('qrcode', {
     text: url,
     colorDark: '#fff',
     colorLight: 'rgb(74, 133, 276)',
-    width: '200',
-    height: '200',
   })
 }
 
-function clearUI() {
+function clearQRcode() {
   qr.innerHTML = ''
+  clearInput()
+}
+
+function clearInput() {
+  const url = (document.getElementById('url-input').value = 'https://')
+  displayMessage()
+}
+
+function displayMessage() {
+  const main = document.querySelector('main')
+  const message = document.createElement('p')
+  message.classList.add('message')
+  message.textContent = `Your QR code for ${priorURL} is ready to scan`
+  main.appendChild(message)
+}
+
+function clearMessage() {
+  const main = document.querySelector('main')
+  const message = document.querySelector('.message')
+  if (message) {
+    main.removeChild(message)
+  }
 }
