@@ -52,7 +52,7 @@ I began planning out this project by reviewing the QRcodejs documentation. From 
 <div align=“center”>
   
   <h2>QR code comp</h2>
-  <img src=“./design/mobile-design.jpg” alt=“QR code generator comp”/>
+  <img align="center" src=“./design/mobile-design.jpg” alt="QR code comp" height="720"/>
 </div>
 
 ## 🎉Acknowledgement
