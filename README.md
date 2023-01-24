@@ -49,9 +49,9 @@ I began planning out this project by reviewing the QRcodejs documentation. From 
 
 <br/>
   
-###QR code comp
-![Screen Shot 2023-01-24 at 2 15 20 PM](https://user-images.githubusercontent.com/50157153/214434689-ece07fc2-afc9-41a9-944a-c5f433f5ac1b.png)
 
+![Screen Shot 2023-01-24 at 2 15 20 PM](https://user-images.githubusercontent.com/50157153/214434689-ece07fc2-afc9-41a9-944a-c5f433f5ac1b.png)
+### QR code comp
 
 ## 🎉Acknowledgement
 
