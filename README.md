@@ -11,7 +11,7 @@
 
 <div>
   <h4 align=“center”>Enter a url and click to generate a QR code</h4>
-    <img align="right" src="./qr-code.gif" alt="QR code application gif" height="720"/>
+    <img align="center" src="./qr-code.gif" alt="QR code application gif" height="720"/>
 </div>
 
 <br/>
