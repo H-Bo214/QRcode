@@ -50,7 +50,7 @@ I began planning out this project by reviewing the QRcodejs documentation. From 
 <br/>
   
   <h2>QR code comp</h2>
-  ![Frontend Mentor comp](https://user-images.githubusercontent.com/50157153/214433425-5daab00e-ed4e-4df7-b7a0-5b2ab6220cca.png)
+  ![Frontend Mentor comp] (https://user-images.githubusercontent.com/50157153/214433425-5daab00e-ed4e-4df7-b7a0-5b2ab6220cca.png)
 
 ## 🎉Acknowledgement
 
