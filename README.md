@@ -6,12 +6,11 @@
     Generate a QR code for any website
   </p>
   
-<hr />
 <br />
 
 <div>
   <h4 align=“center”>Enter a url and click to generate a QR code</h4>
-    <img align="center" src="./qr-code.gif" alt="QR code application gif" height="720"/>
+  <img align="center" src="./qr-code.gif" alt="QR code application gif" height="720"/>
 </div>
 
 <br/>
@@ -20,7 +19,7 @@
 
 ## 🧐About
 
-This a front-end challenge from Frontend Mentor. The challenge was to recreate the comp provided. I decided to take things a little further and make a functioning QR code generator. The comp was modified to include an input field, button and a message informing the user that their code has been generated.
+This a front-end challenge from Frontend Mentor. The challenge was to recreate the comp provided. I decided to take things a little further and make a functioning QR code generator. The comp was modified to include an input field, button and a message informing the user their code has been generated.
 <br/>
 
 ## 💡Features
@@ -53,7 +52,7 @@ I began planning out this project by reviewing the QRcodejs documentation. From 
 <div align=“center”>
   
   <h2>QR code comp</h2>
-  <img src=“./design/mobile-design.jpg” alt=“QR code generator comp”>
+  <img src=“./design/mobile-design.jpg” alt=“QR code generator comp”/>
 </div>
 
 ## 🎉Acknowledgement
