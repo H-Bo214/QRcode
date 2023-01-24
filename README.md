@@ -1,11 +1,8 @@
 <div align=“center”>
   <!— Add your project logo if you have any —>
 </div> 
-  <h1 align=“center”>QR code generator</h1>
-  <p align=“center”>
-    Generate a QR code for any website
-  </p>
-
+  <h1 align=“center”>QR code generator</h1>  
+  <p align=“center”>Generate a QR code for any website</p>
 <div>
   <h4 align=“center”>Enter a url and click to generate a QR code</h4>
   <img align="center" src="./qr-code.gif" alt="QR code application gif" height="720"/>
