@@ -5,8 +5,6 @@
   <p align=“center”>
     Generate a QR code for any website
   </p>
-  
-<br />
 
 <div>
   <h4 align=“center”>Enter a url and click to generate a QR code</h4>
@@ -36,6 +34,11 @@ This a front-end challenge from Frontend Mentor. The challenge was to recreate t
 - qrcodejs
 
 ## 🏁Getting Started
+
+1. Clone this repo
+2. From your terminal change into the application directory
+3. Type: open index.html
+4. Demo the application
 
 <br/>
 
