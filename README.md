@@ -1,21 +1,13 @@
 <div align=“center”>
   <!— Add your project logo if you have any —>
-  <img width=200px height=200px src=“src/assets/images/migrate-logo.svg” alt=“Project logo”>
 </div> 
   <h1 align=“center”>QR code generator</h1>
   <p align=“center”>
     <!— Add your tagline or very short intro of your project —>
     Generate a QR code for any website 
   <br />
-  <a href=“https://migrate-na.netlify.app/“>QR code generator</a> 
   </p>
-
-<div align=“center”>
-
-[![Status](https://img.shields.io/badge/Migrate-Live-blue?style=for-the-badge)](https://migrate-na.netlify.app/)
-
-</div>
-
+  
 <br/>
 
 <hr />
