@@ -10,17 +10,12 @@
 <br />
 
 <div>
-
   <h4 align=“center”>Enter a url and click to generate a QR code</h4>
-  <img align=“center” src=“./qr-code.gif” height=“720”/>
+  <img align=“center” src=“qr-code.gif” height=“720”/>
 </div>
 
-<!— You may write notes in your readme this way if you want to, it looks good and also different from other text —>
 <br/>
-
 <hr />
-
-<h3 align=“center”>Migrate provides demographic and quality of life information for major urban areas within North America. </h3>
 <br/>
 
 ## 🧐About
